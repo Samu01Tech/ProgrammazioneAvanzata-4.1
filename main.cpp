@@ -20,6 +20,7 @@ int main() {
     // m2.setTipo2(&diesel);
     // cout << m2 << endl;
     Automobile a1("Fiat", "Panda", 800, &benzina);
+    a1.addMotore(600, &benzina);
     cout << a1 << endl;
     return 0;
 }
