@@ -7,7 +7,7 @@ Tipocomb::Tipocomb(Tcombustibile _comb){
     cout << (*this) << " Creato" << endl;
 }
 Tipocomb::~Tipocomb(){
-    cout << (*this) << " Creato" << endl;
+    cout << (*this) << " Distrutto" << endl;
 }
 
 ostream& operator << (ostream& os, const Tipocomb& tc){
